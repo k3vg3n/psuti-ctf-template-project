@@ -1,0 +1,13 @@
+{
+    "name": "psutictf/web_task_platform_template",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "PHP": "^8.3"
+    },
+    "autoload": {
+        "App\\": "app",
+        "files": ["helpers/helpers.php"]
+    }
+}
